@@ -11,7 +11,6 @@ public class Animal {
     private String genero;
     private Zona zona;
 
-    // Constructor con parámetros
     public Animal(String nombre, int edad, String habitat, String genero) {
         this.nombre = nombre;
         this.edad = edad;
@@ -20,12 +19,11 @@ public class Animal {
         totalAnimales++;
     }
 
-    // Constructor vacío
+
     public Animal() {
         totalAnimales++;
     }
 
-    // Métodos
     public String movimiento() {
         return "desplazarse";
     }
@@ -55,7 +53,6 @@ public class Animal {
         }
     }
 
-    // Getters y setters
     public static int getTotalAnimales() {
         return totalAnimales;
     }

@@ -35,7 +35,6 @@ public class Anfibio extends Animal {
         return "saltar";
     }
 
-    // Getters y setters
     public static ArrayList<Anfibio> getListado() {
         return listado;
     }
